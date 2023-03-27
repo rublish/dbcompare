@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e20b53f-3c78-475b-940f-02dc2d67515f" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/entity/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql-binlogsubscribe/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/anno/CompareIgnore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/anno/CompareIgnore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/anno/CompareInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/anno/CompareInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/bean/CompareTableResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/bean/CompareTableResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/entity/ColumnProp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/entity/ColumnProp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/util/CompareUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/util/CompareUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/util/MySQLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/util/MySQLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NPBLsmYLG9vJorkSkrBajFYTph" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.saveactions"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkTemp\java-collection\database\mysql-compare\docpic" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.mysql.MainApp" />
+      <module name="mysql-compare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.MainApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8e20b53f-3c78-475b-940f-02dc2d67515f" name="变更" comment="" />
+      <created>1679555788152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679555788152</updated>
+      <workItem from="1679555788787" duration="992000" />
+      <workItem from="1679622118203" duration="1054000" />
+      <workItem from="1679882874115" duration="32000" />
+      <workItem from="1679887412270" duration="9053000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
