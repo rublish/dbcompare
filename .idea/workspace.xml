@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e20b53f-3c78-475b-940f-02dc2d67515f" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/entity/Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysql-binlogsubscribe/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/anno/CompareIgnore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/anno/CompareIgnore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/anno/CompareInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/anno/CompareInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/bean/CompareTableResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/bean/CompareTableResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/entity/ColumnProp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/entity/ColumnProp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/util/CompareUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/util/CompareUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/util/MySQLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/util/MySQLUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lxw/mysql/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+    <list default="true" id="8e20b53f-3c78-475b-940f-02dc2d67515f" name="变更" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/mysql/util/CompareUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/mysql/util/CompareUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +14,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DBCompareResult.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/mysql/MainApp.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/mysql/annotation/CompareIgnore.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/mysql/entity/ColumnProp.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/mysql/util/CompareUtil.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,21 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "project.structure.last.edited": "SDK",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.saveactions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkTemp/java-collection/database/mysql-compare&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.saveactions&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkTemp\java-collection\database\mysql-compare\docpic" />
@@ -99,8 +100,18 @@
       <workItem from="1679555788787" duration="992000" />
       <workItem from="1679622118203" duration="1054000" />
       <workItem from="1679882874115" duration="32000" />
-      <workItem from="1679887412270" duration="9053000" />
+      <workItem from="1679887412270" duration="10136000" />
+      <workItem from="1679910182263" duration="663000" />
+      <workItem from="1679910939852" duration="12000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1679902662936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902662936</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +127,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

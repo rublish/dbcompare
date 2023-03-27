@@ -9,24 +9,14 @@ import cn.mysql.entity.ColumnProp;
 import java.lang.reflect.Field;
 import java.util.*;
 
-/**
- * 功能描述: <br>
- * 〈The core code of this module.The logic of comparing is here.〉
- */
+
 public class CompareUtil {
 
     private static final String NEXT_LINE = "\r\n";
     private static final String DOUBLE_NEXT_LINE = "\r\n\r\n";
     private static final String TRIPPLR_NEXT_LINE = "\r\n\r\n\r\n";
 
-    /*
-     * 功能描述: <br>
-     * 〈compare results from two different databases and get the result message.〉
-     * @Param: [firstMap, secondMap]
-     * @Return: java.lang.String
-     * @Author: luoxw
-     * @Date: 2021/6/4 18:24
-     */
+
     public static String compareDBInfo(Map<String, Map<String, ColumnProp>> firstMap, Map<String, Map<String, ColumnProp>> secondMap) {
         StringBuilder sb = new StringBuilder();
         // 第1个库的表 & 第2个库的表：获得第2个库缺少的表或缺少的表字段、字段上的属性差异
@@ -84,16 +74,7 @@ public class CompareUtil {
         return sb.toString();
     }
 
-    /**
-     * 功能描述: <br>
-     * 〈获取不同字段的差异信息字符串〉
-     * 〈Join the message by traversing the map.〉
-     *
-     * @Param: [colDiffMap]
-     * @Return: java.lang.String
-     * @Author: luoxw
-     * @Date: 2021/6/4 15:08
-     */
+
     private static String getColDiffStr(Map<String, List<String>> colDiffMap) {
         StringBuilder sb = new StringBuilder();
         colDiffMap.forEach((k, v) -> {
@@ -107,16 +88,7 @@ public class CompareUtil {
         return sb.toString();
     }
 
-    /**
-     * 功能描述: <br>
-     * 〈数组遍历添加到字符串〉
-     * 〈Join the message by traversing the array.〉
-     *
-     * @Param: [v]
-     * @Return: java.lang.String
-     * @Author: luoxw
-     * @Date: 2021/6/4 15:09
-     */
+
     private static <T> String appendInForeach(List<T> v) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < v.size(); i++) {
@@ -128,16 +100,7 @@ public class CompareUtil {
         return sb.toString();
     }
 
-    /**
-     * 功能描述: <br>
-     * 〈获取数据库不同的表比较结果〉
-     * get the differences in secondMap standing on firstMap.
-     *
-     * @Param: [firstMap, secondMap]
-     * @Return: cn.mysql.bean.CompareTableResult
-     * @Author: luoxw
-     * @Date: 2021/6/4 15:09
-     */
+
     private static CompareTableResult compareTable(Map<String, Map<String, ColumnProp>> firstMap, Map<String, Map<String, ColumnProp>> secondMap) {
         List<String> secondLackTableList = new ArrayList<>();
         Map<String, List<String>> secondTblLackColMap = new HashMap<>();
@@ -188,19 +151,7 @@ public class CompareUtil {
         };
     }
 
-    /**
-     * 功能描述: <br>
-     * 〈判断是是否需要进行比较〉
-     * 〈Choose whether continue to compare or not.
-     * If define the ignoreFieldNameMap,should judge the field is in the ignoreFieldNameMap or not.If it is,it can not go-on.
-     * Then judge whether the annotation used by the field or not.If used,it can not go-on.
-     * 〉
-     *
-     * @Param: [field]
-     * @Return: boolean
-     * @Author: luoxw
-     * @Date: 2021/6/4 15:10
-     */
+
     private static boolean canCompare(Field field) {
         if (MainApp.ignoreFieldNameMap.size() > 0) {
             return MainApp.ignoreFieldNameMap.get(field.getName()) == null;
@@ -208,16 +159,7 @@ public class CompareUtil {
         return field.getAnnotation(CompareIgnore.class) == null;
     }
 
-    /**
-     * 功能描述: <br>
-     * 〈比较列的详细信息〉
-     * 〈compare the differences between two columns〉
-     *
-     * @Param: [firstColumnProp, secondColumnProp]
-     * @Return: java.util.List<java.lang.String>
-     * @Author: luoxw
-     * @Date: 2021/6/4 15:10
-     */
+
     private static List<String> compareColumnProp(ColumnProp firstColumnProp, ColumnProp secondColumnProp) throws IllegalAccessException {
         List<String> colDiffList = new ArrayList<>();
         Field[] fieldArr = ColumnProp.class.getDeclaredFields();
